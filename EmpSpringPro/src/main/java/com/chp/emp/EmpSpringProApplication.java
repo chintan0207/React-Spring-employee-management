@@ -1,0 +1,13 @@
+package com.chp.emp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class EmpSpringProApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(EmpSpringProApplication.class, args);
+	}
+
+}
