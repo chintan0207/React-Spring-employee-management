@@ -1,7 +1,7 @@
 
 import axios from 'axios'
 
-const Rest_API_Base_URL = "http://localhost:8082/api/v1/employees"
+const Rest_API_Base_URL = "https://employeecurd822024-production.up.railway.app/api/v1/employees"
 
 export const listOfEmployee = () => axios.get(Rest_API_Base_URL);
 
